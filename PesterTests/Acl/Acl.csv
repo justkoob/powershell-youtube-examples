@@ -1,0 +1,3 @@
+"RuleType","Path","Owner","FileSystemRights","AccessControlType","AuditFlags","IdentityReference","IsInherited","InheritanceFlags","PropagationFlags"
+"FileSystemAccessRule","C:\Temp","AMD-Desktop\Joey","FullControl","Allow","","BUILTIN\Administrators","True","ContainerInherit, ObjectInherit","None"
+"FileSystemAuditRule","C:\Temp","","CreateFiles, AppendData, DeleteSubdirectoriesAndFiles, Delete, ReadAndExecute, ChangePermissions, TakeOwnership","","Success, Failure","Everyone","False","ContainerInherit, ObjectInherit","None"
