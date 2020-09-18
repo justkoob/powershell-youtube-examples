@@ -1,6 +1,18 @@
 #requires -Version 5.1
 #requires -RunAsAdministrator
 
+<#
+.SYNOPSIS
+  An example of how to use an external data source (csv) for pester test cases.
+.DESCRIPTION
+  Using a csv file for input for pester test cases to check acl access
+  and audit permissions assigned to a directory.
+.NOTES
+  Author: justkoob
+  Creation Date: 09/16/2020
+  Find me on YouTube: https://www.youtube.com/channel/UCJoqffHqDCoSp-hxGdp1K9A
+#>
+
 using namespace System.Collections
 
 $config = Import-Csv -Path "$PSScriptRoot\Acl.csv"

@@ -1,3 +1,15 @@
+<#
+.SYNOPSIS
+  An example of how to create a function to query user sessions on Windows.
+.DESCRIPTION
+  Using the builtin command 'query user' to return a formatted/re-usable
+  custom object,
+.NOTES
+  Author: justkoob
+  Creation Date: 09/17/2020
+  Find me on YouTube: https://www.youtube.com/channel/UCJoqffHqDCoSp-hxGdp1K9A
+#>
+
 function Get-UserSession {
 	[CmdLetBinding(DefaultParameterSetName = "Default")]
 	param (
