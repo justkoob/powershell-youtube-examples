@@ -5,7 +5,7 @@
   Examples of conditional statement and how to use/create them.
 .NOTES
   Author: justkoob
-  Creation Date: 09/18/2020
+  Creation Date: 09/19/2020
   Find me on YouTube: https://www.youtube.com/channel/UCJoqffHqDCoSp-hxGdp1K9A
 #>
 
